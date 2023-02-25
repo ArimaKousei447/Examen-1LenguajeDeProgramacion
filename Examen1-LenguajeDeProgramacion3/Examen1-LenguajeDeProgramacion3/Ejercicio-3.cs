@@ -16,5 +16,29 @@ namespace Examen1_LenguajeDeProgramacion3
         {
             InitializeComponent();
         }
+
+        private void Ejercicio_3_Load(object sender, EventArgs e)
+        {
+            for (int i = 0; i < 100; i++)
+            {
+                
+                if (i % 3 == 0 & i % 5 == 0)
+                {
+                    ltbNumeros.Items.Add(i + " Kevin Lopez");
+                }
+                else if ( i % 3 == 0)
+                {
+                    ltbNumeros.Items.Add(i + " Kevin");
+                }
+                else if (i % 5 == 0)
+                {
+                    ltbNumeros.Items.Add(i + " Lopez");
+                }
+                else
+                {
+                    ltbNumeros.Items.Add(i);
+                }
+            }
+        }
     }
 }

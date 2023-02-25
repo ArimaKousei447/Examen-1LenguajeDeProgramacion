@@ -59,19 +59,22 @@
             this.ejercicio2ToolStripMenuItem.Name = "ejercicio2ToolStripMenuItem";
             this.ejercicio2ToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
             this.ejercicio2ToolStripMenuItem.Text = "Ejercicio 2";
+            this.ejercicio2ToolStripMenuItem.Click += new System.EventHandler(this.ejercicio2ToolStripMenuItem_Click);
             // 
             // ejercicio3ToolStripMenuItem
             // 
             this.ejercicio3ToolStripMenuItem.Name = "ejercicio3ToolStripMenuItem";
             this.ejercicio3ToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
             this.ejercicio3ToolStripMenuItem.Text = "Ejercicio 3";
+            this.ejercicio3ToolStripMenuItem.Click += new System.EventHandler(this.ejercicio3ToolStripMenuItem_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 587);
             this.Controls.Add(this.menuStrip1);
+            this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";

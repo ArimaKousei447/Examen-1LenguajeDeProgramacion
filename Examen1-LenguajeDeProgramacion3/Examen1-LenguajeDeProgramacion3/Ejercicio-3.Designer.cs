@@ -28,12 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.ltbNumeros = new System.Windows.Forms.ListBox();
+            this.SuspendLayout();
+            // 
+            // ltbNumeros
+            // 
+            this.ltbNumeros.FormattingEnabled = true;
+            this.ltbNumeros.Location = new System.Drawing.Point(94, 12);
+            this.ltbNumeros.Name = "ltbNumeros";
+            this.ltbNumeros.Size = new System.Drawing.Size(142, 420);
+            this.ltbNumeros.TabIndex = 0;
+            // 
+            // Ejercicio_3
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(335, 454);
+            this.Controls.Add(this.ltbNumeros);
+            this.Name = "Ejercicio_3";
             this.Text = "Ejercicio_3";
+            this.Load += new System.EventHandler(this.Ejercicio_3_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.ListBox ltbNumeros;
     }
 }
